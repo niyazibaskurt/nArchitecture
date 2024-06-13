@@ -15,5 +15,6 @@ namespace Persistence.Repositories
         public BrandRepository(BaseDbContext context) : base(context)
         {
         }
+        
     }
 }
