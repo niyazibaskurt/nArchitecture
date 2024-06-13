@@ -11,4 +11,5 @@ namespace Application.Services.Repositories
     public interface ISomeFeatureEntityRepository : IAsyncRepository<SomeFeatureEntity>, IRepository<SomeFeatureEntity>
     {
     }
+
 }
