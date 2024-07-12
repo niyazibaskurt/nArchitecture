@@ -27,5 +27,9 @@ namespace Application.Features.Languages.Rules
 
         }
 
+        public void LanguageShouldExistWhenRequested(Language language)
+        {
+            if (language == null) throw new BusinessException("Requested language does not exist.");
+        }
     }
 }
