@@ -21,7 +21,8 @@ namespace Application.Features.Languages.Profiles
             CreateMap<IPaginate<Language>, LanguageListModel>().ReverseMap();
             CreateMap<Language, LanguageListDto>().ReverseMap();
             CreateMap<Language, LanguageGetByIdDto>().ReverseMap();
-            CreateMap<Language, DeletedLanguageDto>().ReverseMap(); 
+            CreateMap<Language, DeletedLanguageDto>().ReverseMap();
+            CreateMap<Language, UpdatedLanguageDto>().ReverseMap();
 
         }
     }
