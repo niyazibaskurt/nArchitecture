@@ -12,3 +12,4 @@ namespace Application.Features.Brands.Dtos
         public string Name { get; set; }
     }
 }
+ 

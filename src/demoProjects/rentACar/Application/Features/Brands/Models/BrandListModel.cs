@@ -13,3 +13,4 @@ namespace Application.Features.Brands.Models
         public IList<BrandListDto> Items { get; set; }
     }
 }
+ 
