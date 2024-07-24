@@ -19,8 +19,8 @@ namespace Application.Features.Brands.Queries.GetListBrand
 
         public class GetListBrandQueryHandler : IRequestHandler<GetListBrandQuery, BrandListModel>
         {
-            IBrandRepository _brandRepository;
-            IMapper _mapper;
+            private readonly IBrandRepository _brandRepository;
+            private readonly IMapper _mapper;
 
             public GetListBrandQueryHandler(IBrandRepository brandRepository, IMapper mapper)
             {
